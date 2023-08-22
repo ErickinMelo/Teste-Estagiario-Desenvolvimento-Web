@@ -1,0 +1,159 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Nunito', sans-serif;
+}
+
+.container {
+  max-width: 1300px;
+  margin: auto;
+}
+
+/*HEADER*/
+
+header {
+  background-color: #000;
+  color: #FFF;
+}
+
+nav {
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-logo {
+  width: 300px;
+  height: auto;
+  display: flex;
+  align-items: center;
+}
+
+.nav-logo img {
+  width: 130px;
+}
+
+.nav-links ul,
+.nav-links li {
+  list-style: none;
+}
+
+.nav-links ul {
+  display: flex;
+}
+
+.nav-links li a {
+  color: #FFF;
+  text-decoration: none;
+  margin: 0 20px;
+  font-size: 17px;
+  font-weight: bolder;
+}
+
+.nav-links .line {
+  border-right: solid 1px #FFF;
+}
+
+/*SECTION SPOTIFY PREMIUM*/
+
+.spotify-premium {
+  background-color: #993399;
+}
+.premium-content {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  display: flex;
+  align-items: center;
+}
+.premium-left-content {
+  flex: 1;
+}
+.premium-left-content h4 {
+  color: #FFF;
+  font-weight: 1000;
+  margin-bottom: 30px;
+}
+
+.premium-left-content h1 {
+  font-family: 'Roboto', sans-serif;
+  color: #FFF;
+  font-size: 60px;
+  margin-bottom: 20px;
+}
+
+.premium-left-content .text-1 {
+  color: #FFF;
+  font-size: 30px;
+}
+
+.premium-left-content button {
+  margin-top: 30px;
+  padding: 20px;
+  border-radius: 35px;
+  color: #FFF;
+  background-color: #000;
+  border: none;
+  font-weight: bolder;
+  margin-bottom: 30px;
+  cursor: pointer;
+}
+
+.premium-left-content .text-2,
+.premium-left-content a {
+  color: #FFF;
+  font-size: 12px;
+}
+
+.premium-right-content img {
+  width: 450px;
+  height: auto;
+}
+
+/*SECTION SPOTIFY FREE*/
+
+.spotify-free {
+  background-color: #2941ab;
+  background-image: url(../img/bg.png);
+  background-position: top;
+  background-size: cover;
+  height: 650px;
+}
+
+.free-content {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.free-content h4 {
+  color: #1ed760;
+  font-weight: 900;
+  margin-bottom: 30px;
+}
+
+.free-content h1 {
+  font-family: 'Roboto', sans-serif;
+  color: #1ed760;
+  font-size: 60px;
+  margin-bottom: 20px;
+}
+
+.free-content P {
+  color: #1ed760;
+  font-size: 30px;
+}
+
+.free-content button {
+  margin-top: 30px;
+  padding: 20px;
+  border-radius: 35px;
+  color: #2941ab;
+  background-color: #1ed760;
+  border: none;
+  font-weight: bolder;
+  margin-bottom: 30px;
+  cursor: pointer;
+}
